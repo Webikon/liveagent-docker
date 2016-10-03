@@ -32,10 +32,6 @@ Dockerfiles for [LiveAgent standalone](https://www.ladesk.com/pricing/standalone
 
     docker-compose stop && docker-compose rm
 
-### Remove the data and settings of your mattermost instance
-
-    sudo rm -rf volumes
-
 ## More informations
 
 All the database data are stored in `db` folder.
